@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Analysis Dashboard</title>
+  <link rel="stylesheet" href="../CSS/daily-weekly.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>Time Analysis Dashboard</h1>
+      <div class="timeframe-selector">
+        <button data-timeframe="daily" class="active">Daily</button>
+        <button data-timeframe="weekly">Weekly</button>
+        <button data-timeframe="monthly">Monthly</button>
+      </div>
+    </header>
+    <main id="stats-container">
+      <!-- Activity cards will be injected here -->
+    </main>
+  </div>
+  <script src="../Scripts/daily-weekly.js"></script>
+</body>
+</html>

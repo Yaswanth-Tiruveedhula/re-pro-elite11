@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Procrastination Buster - Dashboard</title>
+  <link rel="stylesheet" href="../css/features.css" />
+</head>
+<body>
+  <header>
+    <h1>Procrastination Buster Dashboard</h1>
+  </header>
+
+  <div class="tab-container">
+    <div class="tabs">
+      <button class="tab-link active" data-tab="analysis"
+        onclick = "f1()">Daily/Weekly/Monthly Analysis</button>
+      <button class="tab-link" data-tab="badges"
+        onclick = "f2()">Achievement Badges</button>
+      <button class="tab-link" data-tab="procrastination"
+        onclick = "f3()">Procrastination Time Analysis</button>
+      <button class="tab-link" data-tab="daily-scheduler"
+        onclick = "f4()">Daily Scheduler</button>
+      <button class="tab-link" data-tab="weekend-scheduler"
+        onclick = "f5()">Weekend Scheduler</button>
+      <button class="tab-link" data-tab="chatbot"
+        onclick = "f6()">Chat with Expert</button>
+    </div>
+
+    <div class="tab-content active" id="analysis">
+      <h2>Daily/Weekly/Monthly Analysis</h2>
+      <p>Visualize your productivity trends over different time frames.</p>
+    </div>
+
+    <div class="tab-content" id="badges">
+      <h2>Achievement Badges</h2>
+      <p>Earn badges as you reach your goals and milestones.</p>
+    </div>
+
+    <div class="tab-content" id="procrastination">
+      <h2>Procrastination Time Analysis</h2>
+      <p>Identify when you're most likely to procrastinate and take action.</p>
+    </div>
+
+    <div class="tab-content" id="daily-scheduler">
+      <h2>Daily Scheduler</h2>
+      <p>Plan your day effectively with our intuitive scheduler.</p>
+    </div>
+
+    <div class="tab-content" id="weekend-scheduler">
+      <h2>Weekend Scheduler</h2>
+      <p>Organize your weekends to balance rest and productivity.</p>
+    </div>
+
+    <div class="tab-content" id="chatbot">
+      <h2>Chat with Expert</h2>
+      <p>Get guidance and support from our AI-powered chatbot.</p>
+    </div>
+  </div>
+
+  <script src="../Scripts/features.js"></script>
+</body>
+</html>
+
